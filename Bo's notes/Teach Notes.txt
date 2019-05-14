@@ -1,0 +1,65 @@
+> 1 Repeat the plan
+05  welcome
+
+15  student - cat dogs
+10  everyone - cat dogs
+15  instructor - cat dogs TOGETHER
+
+30  students - character
+15  everyone - character creation Summary
+
+15  breaks
+
+10  everyone - building on constructors?
+
+40  student - tamagotchi time
+15  everyone - tamagotchi Summary
+
+15  instructor - prototypes
+
+---------------------------------------------------------------
+
+> 2 take notes
+Priorities:
+reintroduce JS: object / properties / methods
+student use constructor
+student use user input + constructor => create object (node call method from instance)
+
+Procedure:
+2.1: Instructor - welcome (5m)
+ - Welcome!!! Today is going to be really fun! Constructors! Make our code more dynamic.
+    - insert "programmers are lazy" theory. Do less with more. Be lazy, code neat.
+ - you already know how object function, that's good!
+ - Let's quickly go over object basics to begin!
+    - warm up: create and use an object
+ - main activity: 4 exercises
+ - extra: prototypes
+
+2.2: Students - cats and dogs (15m)
+student follow instruction:
+ - Make dog object with 3 keys: raining = true / noise is woof! / make noise = output noise if raining
+ - Make cat object with 3 keys: raining = false / noise is meow / make noise = output noise if raining
+ - Make dog bark
+ - Make cat meow
+ - Bonus: massHysteria funtion: input = dog, cat; output = "massHysteria" if both rainings are true
+ - Bonus: simplify code
+
+2.3: Everyone - cats and dogs demo (10m)
+Everyone mode:
+ - I open code editor
+ - Call students one by one to complete code with me while explaining
+ - Run the code and explain line by line
+
+ - finished code = 01
+
+ - explain:
+    - where we create keys / methods
+    - how do we use them in the future
+
+ - Ask: how to remove redanduncy
+ - Think: what's not right? dog n cat is so similar. Only diff is data.
+ - Any foolproof way to remove the redandency?
+    - tada! Constructors!
+    - prototypes... yes. but it's extra / optional topic. We don't use it as often so let's see if we get a chance to go back to it
+
+2.4: Instructor: cats n dogs - together (15m)
